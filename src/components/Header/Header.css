@@ -24,3 +24,28 @@
 .header-menu>li:hover {
   color: var(--orange);
 }
+
+@media (max-width:768px) {
+  .header>:nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    z-index: 99;
+    border-radius: .5rem;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 1.5rem 1rem;
+    gap: 0;
+  }
+
+  .header-menu>li>a {
+    display: block;
+  }
+  
+  .header-menu>li>a {
+    padding: 1rem;
+  }
+}

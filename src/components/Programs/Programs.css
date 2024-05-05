@@ -62,3 +62,18 @@
 .category:hover {
   background: var(--planCard);
 }
+
+@media (max-width:768px) {
+  .programs-header {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: x-large;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+  }
+
+  .program-categories {
+    flex-direction: column;
+  }
+}

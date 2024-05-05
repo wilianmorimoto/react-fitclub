@@ -89,3 +89,35 @@
 .partners>img {
   width: 2.5rem;
 }
+
+@media (max-width:768px) {
+  .reasons {
+    flex-direction: column;
+    margin-top: -3rem;
+    padding-top: 5rem;
+  }
+
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+
+  .left-r >:nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+
+  .left-r >:nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .left-r >:nth-child(3) {
+    width: 7rem;
+  }
+
+  .left-r >:nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+  }
+}
